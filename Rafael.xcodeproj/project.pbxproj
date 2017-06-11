@@ -11,6 +11,22 @@
 		0C0EA24D1EECDD9400B78B2F /* Rafael.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0EA2471EECDD8300B78B2F /* Rafael.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C0EA24E1EECDD9500B78B2F /* Rafael.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0EA2471EECDD8300B78B2F /* Rafael.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C0EA24F1EECDD9500B78B2F /* Rafael.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0EA2471EECDD8300B78B2F /* Rafael.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C0EA2511EECDEA700B78B2F /* RFiniteStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA2501EECDEA700B78B2F /* RFiniteStateMachine.swift */; };
+		0C0EA2521EECDEA700B78B2F /* RFiniteStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA2501EECDEA700B78B2F /* RFiniteStateMachine.swift */; };
+		0C0EA2531EECDEA700B78B2F /* RFiniteStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA2501EECDEA700B78B2F /* RFiniteStateMachine.swift */; };
+		0C0EA2541EECDEA700B78B2F /* RFiniteStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA2501EECDEA700B78B2F /* RFiniteStateMachine.swift */; };
+		0C0EA2561EECDED000B78B2F /* RFiniteStateMachineSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA2551EECDED000B78B2F /* RFiniteStateMachineSymbol.swift */; };
+		0C0EA2571EECDED000B78B2F /* RFiniteStateMachineSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA2551EECDED000B78B2F /* RFiniteStateMachineSymbol.swift */; };
+		0C0EA2581EECDED000B78B2F /* RFiniteStateMachineSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA2551EECDED000B78B2F /* RFiniteStateMachineSymbol.swift */; };
+		0C0EA2591EECDED000B78B2F /* RFiniteStateMachineSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA2551EECDED000B78B2F /* RFiniteStateMachineSymbol.swift */; };
+		0C0EA25B1EECDEDC00B78B2F /* RFiniteStateMachineState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA25A1EECDEDC00B78B2F /* RFiniteStateMachineState.swift */; };
+		0C0EA25C1EECDEDC00B78B2F /* RFiniteStateMachineState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA25A1EECDEDC00B78B2F /* RFiniteStateMachineState.swift */; };
+		0C0EA25D1EECDEDC00B78B2F /* RFiniteStateMachineState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA25A1EECDEDC00B78B2F /* RFiniteStateMachineState.swift */; };
+		0C0EA25E1EECDEDC00B78B2F /* RFiniteStateMachineState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA25A1EECDEDC00B78B2F /* RFiniteStateMachineState.swift */; };
+		0C0EA2611EECE1B800B78B2F /* JObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA2601EECE1B800B78B2F /* JObservable.swift */; };
+		0C0EA2621EECE1B800B78B2F /* JObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA2601EECE1B800B78B2F /* JObservable.swift */; };
+		0C0EA2631EECE1B800B78B2F /* JObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA2601EECE1B800B78B2F /* JObservable.swift */; };
+		0C0EA2641EECE1B800B78B2F /* JObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EA2601EECE1B800B78B2F /* JObservable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +39,10 @@
 		0C0EA2441EECDD8300B78B2F /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		0C0EA2451EECDD8300B78B2F /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
 		0C0EA2471EECDD8300B78B2F /* Rafael.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rafael.h; sourceTree = "<group>"; };
+		0C0EA2501EECDEA700B78B2F /* RFiniteStateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFiniteStateMachine.swift; sourceTree = "<group>"; };
+		0C0EA2551EECDED000B78B2F /* RFiniteStateMachineSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFiniteStateMachineSymbol.swift; sourceTree = "<group>"; };
+		0C0EA25A1EECDEDC00B78B2F /* RFiniteStateMachineState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFiniteStateMachineState.swift; sourceTree = "<group>"; };
+		0C0EA2601EECE1B800B78B2F /* JObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JObservable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +111,21 @@
 		0C0EA2461EECDD8300B78B2F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				0C0EA25F1EECE1B000B78B2F /* External */,
 				0C0EA2471EECDD8300B78B2F /* Rafael.h */,
+				0C0EA2501EECDEA700B78B2F /* RFiniteStateMachine.swift */,
+				0C0EA2551EECDED000B78B2F /* RFiniteStateMachineSymbol.swift */,
+				0C0EA25A1EECDEDC00B78B2F /* RFiniteStateMachineState.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		0C0EA25F1EECE1B000B78B2F /* External */ = {
+			isa = PBXGroup;
+			children = (
+				0C0EA2601EECE1B800B78B2F /* JObservable.swift */,
+			);
+			path = External;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,21 +249,25 @@
 					0C0EA2101EECDCFC00B78B2F = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 6A7WG7H72G;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					0C0EA21E1EECDD0E00B78B2F = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 6A7WG7H72G;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					0C0EA22B1EECDD1E00B78B2F = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 6A7WG7H72G;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					0C0EA2381EECDD2B00B78B2F = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 6A7WG7H72G;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -292,6 +328,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0EA2511EECDEA700B78B2F /* RFiniteStateMachine.swift in Sources */,
+				0C0EA25B1EECDEDC00B78B2F /* RFiniteStateMachineState.swift in Sources */,
+				0C0EA2561EECDED000B78B2F /* RFiniteStateMachineSymbol.swift in Sources */,
+				0C0EA2611EECE1B800B78B2F /* JObservable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +339,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0EA2521EECDEA700B78B2F /* RFiniteStateMachine.swift in Sources */,
+				0C0EA25C1EECDEDC00B78B2F /* RFiniteStateMachineState.swift in Sources */,
+				0C0EA2571EECDED000B78B2F /* RFiniteStateMachineSymbol.swift in Sources */,
+				0C0EA2621EECE1B800B78B2F /* JObservable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +350,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0EA2531EECDEA700B78B2F /* RFiniteStateMachine.swift in Sources */,
+				0C0EA25D1EECDEDC00B78B2F /* RFiniteStateMachineState.swift in Sources */,
+				0C0EA2581EECDED000B78B2F /* RFiniteStateMachineSymbol.swift in Sources */,
+				0C0EA2631EECE1B800B78B2F /* JObservable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +361,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0EA2541EECDEA700B78B2F /* RFiniteStateMachine.swift in Sources */,
+				0C0EA25E1EECDEDC00B78B2F /* RFiniteStateMachineState.swift in Sources */,
+				0C0EA2591EECDED000B78B2F /* RFiniteStateMachineSymbol.swift in Sources */,
+				0C0EA2641EECE1B800B78B2F /* JObservable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
