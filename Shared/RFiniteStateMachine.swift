@@ -51,7 +51,7 @@ public class RFiniteStateMachine<Σ: RFiniteStateMachineSymbol, S: RFiniteStateM
      - Returns: A non-deterministic finite-state machine.
      */
     
-    public init(s₀: S, δ: @escaping RFiniteStateMachineStateTransitionFunction) {
+    public init(_ s₀: S, δ: @escaping RFiniteStateMachineStateTransitionFunction) {
         self.s₀ = s₀
         self.δ = δ
         self.state = JObservable(s₀)

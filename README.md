@@ -35,6 +35,66 @@ Drag the .xcodeproj file into your workspace.
 
 ### Usage
 
+Let's define a Turnstile as a finite-state machine .
+
+```swift
+import Rafael
+
+public class Turnstile: RFiniteStateMachineState<TurnstileSymbol, TurnstileState> {
+
+    public init() {
+        super.init(.locked) { symbol, state in
+            switch (symbol, state) {
+                case (.pay, .locked):
+                    return .unlocked
+                case (.push, .unlocked):
+                    return .locked
+                default:
+                    break
+            }
+        }
+    }
+
+}
+```
+
+In this scenario, we define a symbol as "pay" and "push", the two actions
+associated with a turnstile.
+
+```swift
+import Rafael
+
+public enum TurnstileSymbol: RFiniteStateMachineSymbol {
+
+    case pay
+    case push
+
+}
+```
+
+We also define a state as "locked" and "unlocked", the two states a turnstile
+can represent.
+
+```swift
+import Rafael
+
+public enum TurnstileState: RFiniteStateMachineState {
+
+    case locked
+    case unlocked
+
+}
+```
+
+The power a finite-state machine lies in transduction.
+
+```swift
+let turnstile = Turnstile()
+turnstile.transduce(.push); // .locked -> .locked
+turnstile.transduce(.pay); // .locked -> .unlocked
+turnstile.transduce(.push); // .unlocked -> .locked
+```
+
 ## Documentation
 
 ## Versioning
