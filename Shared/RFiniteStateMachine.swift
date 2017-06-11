@@ -64,7 +64,7 @@ public class RFiniteStateMachine<Σ: RFiniteStateMachineSymbol, S: RFiniteStateM
      - Parameter symbol: A symbol from the input alphabet.
      */
     
-    public func transduce(symbol: Σ) {
+    public func transduce(_ symbol: Σ) {
         if let newState = self.δ(symbol, self.state.value) {
             self.state.value = newState
         }

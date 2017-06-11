@@ -86,7 +86,7 @@ public enum TurnstileState: RFiniteStateMachineState {
 }
 ```
 
-The power a finite-state machine lies in transduction.
+The power of a finite-state machine lies in transduction.
 
 ```swift
 let turnstile = Turnstile()
@@ -96,6 +96,30 @@ turnstile.transduce(.push); // .unlocked -> .locked
 ```
 
 ## Documentation
+
+### RFiniteStateMachine (Generic Types Σ: RFiniteStateMachineSymbol, S: RFiniteStateMachineState)
+
+#### Instance Variables
+
+* `s₀: S`: An initial state, an element of S.
+* `δ: RFiniteStateMachineStateTransitionFunction`: The state-transition function: δ : S × Σ → S.
+* `state: JObservable<RFiniteStateMachineState>`: The current state, an element of S.
+
+#### Initializers
+
+* `init(_ s₀: S, δ: @escaping RFiniteStateMachineStateTransitionFunction)`
+    * Parameter `s₀`: An initial state, an element of S.
+    * Parameter `δ`: The state-transition function: δ : S × Σ → S.
+
+#### Instance Functions
+
+* `transduce(_ symbol: Σ)` - Transduces the state-transition function to generate output based on a
+     given input and/or a state.
+    * Parameter `symbol`: A symbol from the input alphabet.
+
+### RFiniteStateMachineSymbol
+
+### RFiniteStateMachineState
 
 ## Versioning
 
